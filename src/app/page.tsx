@@ -148,7 +148,7 @@ export default function Home() {
               {/* Date Selection */}
               <div className="space-y-4">
                 <label className="block text-sm font-medium text-gray-300">
-                  Select Date (GMT+1)
+                  Select Date
                 </label>
                 <Popover className="relative">
                   <Popover.Button className="w-full bg-gray-800/50 border border-gray-700 rounded-lg px-4 py-3 text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent flex items-center justify-between">
@@ -214,7 +214,7 @@ export default function Home() {
               {/* Time Selection */}
               <div className="space-y-4">
                 <label className="block text-sm font-medium text-gray-300">
-                  Select Time
+                  Select Time (GMT+1)
                 </label>
                 <div className="grid grid-cols-3 gap-2">
                   {formData.date ? (
